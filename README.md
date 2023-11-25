@@ -4,4 +4,4 @@ choose your favourite films and watch trending films
 
 # Set Up
 * you cna use visual studio code to run this website
-* you can use [ vercel link ] (https://netflix-flax-six.vercel.app/index.html) to run code directly  
+* you can use [vercel link](https://netflix-flax-six.vercel.app/index.html) to run code directly  
