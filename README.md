@@ -1,6 +1,5 @@
 # Get Start 
-Netflix Website with main page , if you have an account you can write your account and go into main page where you can 
-choose your favourite films and watch trending films 
+Netflix Website display new films with many features and display many categories 
 
 # Set Up
 * you cna use visual studio code to run this website
@@ -28,5 +27,7 @@ choose your favourite films and watch trending films
 - Main
     - you can discover trending movies and enjoy watching
     - you can choose kind of your favourite films and scroll to choose your film 
+
+![Uploading screencapture-netflix-flax-six-vercel-app-index-html-2023-11-25-20_24_30.png…]()
 
 
