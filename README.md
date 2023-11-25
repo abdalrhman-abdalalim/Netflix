@@ -28,6 +28,6 @@ Netflix Website display new films with many features and display many categories
     - you can discover trending movies and enjoy watching
     - you can choose kind of your favourite films and scroll to choose your film 
 
-![Uploading screencapture-netflix-flax-six-vercel-app-index-html-2023-11-25-20_24_30.png…]()
+![Overview for full website](screencapture-netflix-flax-six-vercel-app-index-html-2023-11-25-20_24_30)
 
 
