@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Netflix-Symbol.png" type="image/x-icon">
+    <title>Netflix</title>
+    <link rel="shortcut icon" href="img/download.png" type="image/x-icon">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="csss/styeSingin.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav>
+        <div>
+            <img src="img\logo.png" alt="">
+        </div>
+    </nav>
+    <!-- 1st section  -->
+    <section class="first-section">
+        <form action="main.html" onkeydown="valid();" >
+<!-- onkey down occurs when first char has been writen -->
+            <h4>Sign in</h4>
+            <input class="inp" id="email" type="email" placeholder="Email or phone number"><br>
+            <p id="emailError"></p>
+            <input class="inp" id="password" type="password" placeholder="Password"><br>
+            <p id="passwordError"></p>
+            <input type="submit" id="sumbitBtn" value="Sign In"><br>
+            <div class="remember">
+                <div class="check">
+                    <input class="in" type="checkbox" name="remember">
+                    <label for="remember">Remember me</label>
+                </div>
+                <a href="#">Need help?</a>
+            </div>
+            <div class="new">
+                <h6>New to Netflix?</h6>
+                <a class="signup" href="#">Sign up now.</a>
+            </div>
+            <div class="paragraph">
+                <p>This page is protected by Google reCAPTCHA to ensure you're not a bot. 
+                    <a href="#">Learn more</a>
+                    .
+                </p>
+            </div>
+        </form>
+    </section>
+
+
+    <!-- 2nd Section  -->
+    <section class="second-section">
+        <div class="container">
+            <div class="tittle-secondSec">
+                <h4>Questions? Contact us.</h4>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <a href="#">FAQ</a><br>
+                    <a href="#">Cookie Preferences</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <a href="#">Help Center</a><br>
+                    <a href="#">Corporate Information</a><br>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <a href="#">Terms of Use</a><br>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <a href="#">Privacy</a><br>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/SignIn.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

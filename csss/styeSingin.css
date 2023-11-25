@@ -1,0 +1,141 @@
+/*******navbar********/
+body{
+    position: relative;
+    background-image:url(header.jpg);
+    background-size: cover;
+    height: 1000px;
+}
+body::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1000px;
+    z-index: -1;
+    background: linear-gradient(to bottom,#000000af,transparent);
+}
+body::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1000px;
+    z-index: -1;
+    background: linear-gradient(to top,#00000077,transparent);
+}
+nav div img{
+    width: 200px;
+    margin: 20px;
+}
+/********** section *******/
+.first-section{
+    margin: auto;
+    width: 450px;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.664);
+}
+.first-section form{
+    padding-left: 60px;
+    padding-top: 60px;
+}
+.first-section form h4{
+    font-size: 40px;
+    color: white;
+    padding-bottom: 40px;
+}
+.first-section form .inp{
+    padding: 10px;
+    width: 330px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(51, 51, 51);
+}
+.first-section form .inp:focus{
+    outline: none;
+}
+.first-section form .inp::placeholder{
+    color: rgb(126, 135, 139);
+}
+.first-section form input[type="submit"]{
+    width: 330px;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: rgb(229, 9, 20);
+    color: white;
+}
+#passwordError,#emailError {
+    color: rgb(170, 170, 11);
+    margin-top: -10px;
+    margin-left: 5px;
+}
+.first-section form input[type="submit"]::placeholder{
+    color: white;
+    font-size: 40px;
+}
+.first-section form .remember{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    width: 330px;
+}
+.first-section form .remember a{
+    font-size: 14px;
+    color: rgb(115, 115, 115) ;
+    text-decoration: none;
+}
+.first-section form .remember .check .in{
+    color: black;
+    background-color: rgb(255, 0, 0);
+    font-size: 100px;
+}
+.first-section form .remember .check label{
+    color:rgb(115, 115, 115) ;
+    padding-left: 2px;
+    font-size: 14px;
+}
+.first-section form .new{
+    align-items:flex-start;
+    padding-top: 40px;
+    display: flex;
+}
+.first-section form .new h6{
+    font-size: 18px;
+    padding-top: 4px;
+    color:rgb(115, 115, 115) ;
+    padding-right: 6px;
+}
+.first-section form .new a{
+    font-size: 18px;
+    color: white;
+}
+.first-section form .paragraph p{
+    margin-top: 10px;
+    color:rgb(115, 115, 115) ;
+    font-size: 14px;
+    width: 340px;
+}
+
+
+/************ second Section ************/
+.second-section{
+    margin-top: 60px;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.719);
+}
+.second-section .tittle-secondSec h4{
+    padding-top: 10px;
+    font-size: 20px;
+    color: rgb(82, 80, 80);
+}
+.second-section .row{
+    margin-top: 30px;
+}
+.second-section .row div a{
+    color: rgb(82, 80, 80);
+}
